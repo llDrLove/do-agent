@@ -180,6 +180,18 @@ var gpuWhitelist = map[string]bool{
 	"DCGM_FI_DEV_POWER_VIOLATION":        true,
 	"DCGM_FI_DEV_THERMAL_VIOLATION":      true,
 	"DCGM_FI_DEV_ECC_DBE_AGG_TOTAL":      true,
+	"DCGM_FI_PROF_SM_ACTIVE":             true,
+	"DCGM_FI_PROF_PIPE_FP16_ACTIVE":      true,
+	"DCGM_FI_PROF_PIPE_FP32_ACTIVE":      true,
+	"DCGM_FI_PROF_PIPE_FP64_ACTIVE":      true,
+	"DCGM_FI_DEV_RETIRED_SBE":            true,
+	"DCGM_FI_DEV_RETIRED_DBE":            true,
+	"DCGM_FI_DEV_XID_ERRORS":             true,
+	"DCGM_FI_DEV_ECC_SBE_VOL_TOTAL":      true,
+	"DCGM_FI_DEV_ECC_DBE_VOL_TOTAL":      true,
+	"DCGM_FI_DEV_ECC_SBE_AGG_TOTAL":      true,
+	"DCGM_FI_DEV_PCIE_REPLAY_COUNTER":    true,
+	"DCGM_FI_DEV_SM_CLOCK":               true,
 
 	// GPU Utilization
 	"amd_gpu_prof_gui_util_percent":      true,

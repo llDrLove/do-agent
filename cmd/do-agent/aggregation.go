@@ -129,6 +129,18 @@ var gpuAggregationSpec = map[string][]string{
 	"dcgm_fi_dev_power_violation":        nvidiaAggregatedLabels,
 	"dcgm_fi_dev_thermal_violation":      nvidiaAggregatedLabels,
 	"dcgm_fi_dev_ecc_dbe_agg_total":      nvidiaAggregatedLabels,
+	"dcgm_fi_prof_sm_active":             nvidiaAggregatedLabels,
+	"dcgm_fi_prof_pipe_fp16_active":      nvidiaAggregatedLabels,
+	"dcgm_fi_prof_pipe_fp32_active":      nvidiaAggregatedLabels,
+	"dcgm_fi_prof_pipe_fp64_active":      nvidiaAggregatedLabels,
+	"dcgm_fi_dev_retired_sbe":            nvidiaAggregatedLabels,
+	"dcgm_fi_dev_retired_dbe":            nvidiaAggregatedLabels,
+	"dcgm_fi_dev_xid_errors":             nvidiaAggregatedLabels,
+	"dcgm_fi_dev_ecc_sbe_vol_total":      nvidiaAggregatedLabels,
+	"dcgm_fi_dev_ecc_dbe_vol_total":      nvidiaAggregatedLabels,
+	"dcgm_fi_dev_ecc_sbe_agg_total":      nvidiaAggregatedLabels,
+	"dcgm_fi_dev_pcie_replay_counter":    nvidiaAggregatedLabels,
+	"dcgm_fi_dev_sm_clock":               nvidiaAggregatedLabels,
 
 	// GPU Utilization metrics
 	"amd_gpu_prof_gui_util_percent":      amdAggregatedLabels,
